@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C010CE19B4C42000EBBF8B /* WLRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C010C919B4C42000EBBF8B /* WLRangeSlider.m */; };
+		21C010CF19B4C42000EBBF8B /* WLSliderThumbLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C010CB19B4C42000EBBF8B /* WLSliderThumbLayer.m */; };
+		21C010D019B4C42000EBBF8B /* WLTrackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C010CD19B4C42000EBBF8B /* WLTrackLayer.m */; };
 		613689C119B4055000234C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613689C019B4055000234C43 /* Foundation.framework */; };
 		613689C319B4055000234C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613689C219B4055000234C43 /* CoreGraphics.framework */; };
 		613689C519B4055000234C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613689C419B4055000234C43 /* UIKit.framework */; };
@@ -21,9 +24,6 @@
 		613689E219B4055000234C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613689C419B4055000234C43 /* UIKit.framework */; };
 		613689EA19B4055000234C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613689E819B4055000234C43 /* InfoPlist.strings */; };
 		613689EC19B4055000234C43 /* CustomSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 613689EB19B4055000234C43 /* CustomSliderTests.m */; };
-		613689F719B4057900234C43 /* WLRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 613689F619B4057900234C43 /* WLRangeSlider.m */; };
-		613689FA19B40E5B00234C43 /* WLSliderThumbLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 613689F919B40E5B00234C43 /* WLSliderThumbLayer.m */; };
-		613689FD19B40E7C00234C43 /* WLTrackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 613689FC19B40E7C00234C43 /* WLTrackLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21C010C819B4C42000EBBF8B /* WLRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRangeSlider.h; sourceTree = "<group>"; };
+		21C010C919B4C42000EBBF8B /* WLRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRangeSlider.m; sourceTree = "<group>"; };
+		21C010CA19B4C42000EBBF8B /* WLSliderThumbLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSliderThumbLayer.h; sourceTree = "<group>"; };
+		21C010CB19B4C42000EBBF8B /* WLSliderThumbLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSliderThumbLayer.m; sourceTree = "<group>"; };
+		21C010CC19B4C42000EBBF8B /* WLTrackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTrackLayer.h; sourceTree = "<group>"; };
+		21C010CD19B4C42000EBBF8B /* WLTrackLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTrackLayer.m; sourceTree = "<group>"; };
 		613689BD19B4055000234C43 /* CustomSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613689C019B4055000234C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		613689C219B4055000234C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,12 +62,6 @@
 		613689E719B4055000234C43 /* CustomSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomSliderTests-Info.plist"; sourceTree = "<group>"; };
 		613689E919B4055000234C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		613689EB19B4055000234C43 /* CustomSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSliderTests.m; sourceTree = "<group>"; };
-		613689F519B4057900234C43 /* WLRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRangeSlider.h; sourceTree = "<group>"; };
-		613689F619B4057900234C43 /* WLRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRangeSlider.m; sourceTree = "<group>"; };
-		613689F819B40E5B00234C43 /* WLSliderThumbLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSliderThumbLayer.h; sourceTree = "<group>"; };
-		613689F919B40E5B00234C43 /* WLSliderThumbLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSliderThumbLayer.m; sourceTree = "<group>"; };
-		613689FB19B40E7C00234C43 /* WLTrackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTrackLayer.h; sourceTree = "<group>"; };
-		613689FC19B40E7C00234C43 /* WLTrackLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTrackLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21C010C719B4C42000EBBF8B /* WLRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				21C010C819B4C42000EBBF8B /* WLRangeSlider.h */,
+				21C010C919B4C42000EBBF8B /* WLRangeSlider.m */,
+				21C010CA19B4C42000EBBF8B /* WLSliderThumbLayer.h */,
+				21C010CB19B4C42000EBBF8B /* WLSliderThumbLayer.m */,
+				21C010CC19B4C42000EBBF8B /* WLTrackLayer.h */,
+				21C010CD19B4C42000EBBF8B /* WLTrackLayer.m */,
+			);
+			path = WLRangeSlider;
+			sourceTree = "<group>";
+		};
 		613689B419B4055000234C43 = {
 			isa = PBXGroup;
 			children = (
@@ -121,17 +134,12 @@
 		613689C619B4055000234C43 /* CustomSlider */ = {
 			isa = PBXGroup;
 			children = (
+				21C010C719B4C42000EBBF8B /* WLRangeSlider */,
 				613689CF19B4055000234C43 /* AppDelegate.h */,
 				613689D019B4055000234C43 /* AppDelegate.m */,
 				613689D219B4055000234C43 /* Main.storyboard */,
 				613689D519B4055000234C43 /* ViewController.h */,
 				613689D619B4055000234C43 /* ViewController.m */,
-				613689F519B4057900234C43 /* WLRangeSlider.h */,
-				613689F619B4057900234C43 /* WLRangeSlider.m */,
-				613689F819B40E5B00234C43 /* WLSliderThumbLayer.h */,
-				613689F919B40E5B00234C43 /* WLSliderThumbLayer.m */,
-				613689FB19B40E7C00234C43 /* WLTrackLayer.h */,
-				613689FC19B40E7C00234C43 /* WLTrackLayer.m */,
 				613689D819B4055000234C43 /* Images.xcassets */,
 				613689C719B4055000234C43 /* Supporting Files */,
 			);
@@ -265,11 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613689FD19B40E7C00234C43 /* WLTrackLayer.m in Sources */,
+				21C010D019B4C42000EBBF8B /* WLTrackLayer.m in Sources */,
 				613689CD19B4055000234C43 /* main.m in Sources */,
-				613689F719B4057900234C43 /* WLRangeSlider.m in Sources */,
+				21C010CE19B4C42000EBBF8B /* WLRangeSlider.m in Sources */,
 				613689D719B4055000234C43 /* ViewController.m in Sources */,
-				613689FA19B40E5B00234C43 /* WLSliderThumbLayer.m in Sources */,
+				21C010CF19B4C42000EBBF8B /* WLSliderThumbLayer.m in Sources */,
 				613689D119B4055000234C43 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
