@@ -143,7 +143,7 @@
 - (BOOL)continueTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event{
     CGPoint point = [touch locationInView:self];
     CGFloat deltaX = point.x - _previousLoction.x;
-    CGFloat deltaValue = (_maxValue - _minValue) * deltaX / (CGRectGetWidth(self.bounds) - CGRectGetHeight(self.bounds));
+    CGFloat deltaValue = (_maxValue - _minValue) * deltaX / (CGRectGetWidth(self.bounds) - [self thumbWidth]);
     _previousLoction = point;
     if (_leftThumbLayer.highlighted) {
         self.leftValue += deltaValue;
@@ -156,6 +156,11 @@
 }
 
 - (void)endTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event{
+    _leftThumbLayer.highlighted = NO;
+    _rightThumbLayer.highlighted = NO;
+}
+
+- (void)cancelTrackingWithEvent:(UIEvent *)event{
     _leftThumbLayer.highlighted = NO;
     _rightThumbLayer.highlighted = NO;
 }
